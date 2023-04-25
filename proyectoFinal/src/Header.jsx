@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Header(){
     return (
-        <div>Header</div>
+        <div>
+            <h2>CREAR CITA</h2>
+        </div>
 
     )
 

@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #EAF3FA;
 }
 
 h1 {
@@ -43,7 +44,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #2196F3;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -53,6 +54,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
 }
 
 @media (prefers-color-scheme: light) {
@@ -65,5 +71,6 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+    margin-top: 10px;
   }
 }
