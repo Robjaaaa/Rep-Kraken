@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Header(){
+export default function Header({titulo}){
     return (
         <div>
-            <h2>CREAR CITA</h2>
+            <h2>{titulo}</h2>
         </div>
 
     )
